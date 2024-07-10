@@ -14,7 +14,7 @@ def job():
     logging.info(f'Finished uscbeach61.py at {datetime.now()}')
 
 # Define the start time as 20:00 on the current day (zou can replace anything in24 hour format )
-start_time = datetime.combine(datetime.now(), datetime.strptime('04:16', '%H:%M').time())
+start_time = datetime.combine(datetime.now(), datetime.strptime('23:45', '%H:%M').time())
 logging.info(f'Start time: {start_time}')
 print(start_time)
 # Calculate the target time as 8 hours after the start time
