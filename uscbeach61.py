@@ -8,8 +8,8 @@ import pandas as pd
 import asyncio
 from playwright.async_api import async_playwright, Playwright
 from datetime import datetime, timedelta
-email = "yourmail"
-password = "your password"
+email = ""
+password = ""
 # Calculate the date 5 days from today
 today = datetime.now()
 target_date = today + timedelta(days=13)
